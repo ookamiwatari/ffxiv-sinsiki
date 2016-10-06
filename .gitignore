@@ -1,3 +1,6 @@
+# My filter
+*.BAK
+
 # Logs
 logs
 *.log

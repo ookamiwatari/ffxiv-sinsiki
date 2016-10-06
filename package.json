@@ -1,0 +1,23 @@
+{
+  "name": "ffxiv-sinsiki",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ookamiwatari/ffxiv-sinsiki.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ookamiwatari/ffxiv-sinsiki/issues"
+  },
+  "homepage": "https://github.com/ookamiwatari/ffxiv-sinsiki",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
