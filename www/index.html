@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/ui-lightness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+  <p><textarea id="equip01" cols=60 rows=20 disabled></textarea><textarea id="equip02" cols=60 rows=20 disabled></textarea></p>
+  <select id="combo01"></select>
+  <input type="button" value="緑一色" onclick="allGreen();rePaint();" >
+  <input type="button" value="クリア" onclick="equipment.fill(0);rePaint();" >
+
+
+  <table id="table01"></table>
+
+  <hr>
+  <p>Copyright (C) 2010 - 2016 SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+  <p>記載されている会社名・製品名・システム名などは、各社の商標、または登録商標です。</p>
+</body>
+</html>
